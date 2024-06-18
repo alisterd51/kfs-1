@@ -1,6 +1,5 @@
 #![no_std]
 #![no_main]
-#![feature(c_size_t)]
 
 mod driver;
 mod io;

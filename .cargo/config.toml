@@ -1,5 +1,0 @@
-[unstable]
-build-std = ["core"]
-
-[build]
-target = "arch/x86/target.json"

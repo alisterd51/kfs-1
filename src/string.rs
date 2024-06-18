@@ -1,4 +1,8 @@
-use core::ffi::{c_char, c_int, c_size_t, c_void};
+use core::ffi::{c_char, c_int, c_void};
+
+// https://github.com/rust-lang/rust/issues/88345
+#[allow(non_camel_case_types)]
+pub type c_size_t = usize;
 
 #[no_mangle]
 pub unsafe extern "C" fn memcpy(dest: *mut c_void, src: *const c_void, n: c_size_t) -> *mut c_void {
