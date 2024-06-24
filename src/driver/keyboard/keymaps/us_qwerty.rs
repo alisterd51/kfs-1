@@ -102,12 +102,12 @@ pub const US_QUERTY_KEYMAP: Keymap = {
         ctrl: KeymapValue::Control('L'),
     });
     keymap[ScanCodeValue::M as usize] = Some(KeymapSet {
-        not_shift: KeymapValue::Lowercase('a'),
-        shift: KeymapValue::Ascii('A'),
-        alt1: KeymapValue::Alt('a'),
-        alt2: KeymapValue::Alt('a'),
-        alt_shift: KeymapValue::Alt('A'),
-        ctrl: KeymapValue::Control('A'),
+        not_shift: KeymapValue::Lowercase('m'),
+        shift: KeymapValue::Ascii('M'),
+        alt1: KeymapValue::Alt('m'),
+        alt2: KeymapValue::Alt('m'),
+        alt_shift: KeymapValue::Alt('M'),
+        ctrl: KeymapValue::Control('M'),
     });
     keymap[ScanCodeValue::N as usize] = Some(KeymapSet {
         not_shift: KeymapValue::Lowercase('n'),
